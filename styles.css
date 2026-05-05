@@ -347,6 +347,14 @@ h3 {
   margin: 0;
 }
 
+.media-tile img {
+  width: 100%;
+  height: 230px;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .media-tile--wide {
   grid-column: span 2;
   grid-row: span 2;
