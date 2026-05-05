@@ -7,7 +7,8 @@ Static GitHub Pages site for the new Hebrew-only LUNGE offer page.
 - `index.html` - page content and structure
 - `styles.css` - visual style based on the existing LUNGE brand
 - `brand.jpeg` - LUNGE logo from the original site
-- `back-1.jpg` - hero/background image from the original site
+- `hero-gym.jpeg` - current hero/background image
+- `back-1.jpg` - original background image kept as a fallback asset
 - `assets/images/kiil.png` - KIIL benefit logo
 - `assets/video/` - put future videos here
 

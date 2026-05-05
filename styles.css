@@ -115,7 +115,7 @@ img {
   overflow: hidden;
   background:
     linear-gradient(90deg, rgba(7, 7, 7, 0.98), rgba(7, 7, 7, 0.62) 48%, rgba(7, 7, 7, 0.1)),
-    url("back-1.jpg") center / cover no-repeat;
+    url("hero-gym.jpeg") center / cover no-repeat;
 }
 
 .hero__shade {
@@ -359,8 +359,8 @@ h3 {
   padding: 24px;
   border-radius: 8px;
   background:
-    linear-gradient(0deg, rgba(7, 7, 7, 0.65), rgba(7, 7, 7, 0.18)),
-    url("back-1.jpg") center / cover no-repeat;
+    linear-gradient(135deg, rgba(7, 7, 7, 0.92), rgba(28, 184, 232, 0.22)),
+    #101010;
   color: #fff;
   text-align: center;
   font-weight: 800;
@@ -419,7 +419,7 @@ figcaption {
     min-height: 88vh;
     background:
       linear-gradient(0deg, rgba(7, 7, 7, 0.98), rgba(7, 7, 7, 0.48)),
-      url("back-1.jpg") center top / cover no-repeat;
+      url("hero-gym.jpeg") center top / cover no-repeat;
   }
 
   .hero__content {
@@ -466,4 +466,3 @@ figcaption {
     text-align: center;
   }
 }
-
