@@ -443,27 +443,35 @@ figcaption {
 }
 
 .contact__hours {
-  background: rgba(28, 184, 232, 0.08);
-  border: 1px solid rgba(28, 184, 232, 0.3);
-  padding: 20px;
-  border-radius: 8px;
-  color: var(--muted);
-  font-size: 16px;
-  line-height: 1.8;
+  display: grid;
+  gap: 24px;
 }
 
-.contact__hours p {
-  margin: 0 0 14px;
+.hours-item {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(28, 184, 232, 0.2);
 }
 
-.contact__hours p:last-child {
-  margin-bottom: 0;
+.hours-item:last-child {
+  border-bottom: none;
 }
 
-.contact__hours strong {
-  color: var(--text);
-  display: block;
+.hours-day {
+  font-weight: 700;
+  color: var(--cyan);
   margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.hours-time {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+.hours-time:last-child {
+  margin-bottom: 0;
 }
 
 .footer {
@@ -547,7 +555,8 @@ figcaption {
     display: grid;
   }
 
-  .contact__hours {
+  .hours-time,
+  .hours-day {
     font-size: 14px;
   }
 
